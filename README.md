@@ -15,7 +15,7 @@ the proxied remote address, not the remote address according to the socket.
 Available on clojars, add to your dependencies:
 
 ```
-[com.github.csm/aleph-haproxy-tcp "0.1.0"]
+[com.github.csm/aleph-haproxy-tcp "0.1.1"]
 ```
 
 Then, `aleph.haproxy-tcp/start-server` should work as a drop-in replacement for `aleph.tcp/start-server`.
