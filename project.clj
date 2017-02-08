@@ -1,4 +1,4 @@
-(defproject com.github.csm/aleph-haproxy-tcp "0.1.0-SNAPSHOT"
+(defproject com.github.csm/aleph-haproxy-tcp "0.1.0"
   :description "Aleph wrapper for HAPROXY protocol"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
