@@ -71,7 +71,7 @@
     :as options}]
   (netty/start-server
     (fn [^ChannelPipeline pipeline]
-      (.addLast pipeline "haproxy" (HAProxyMessageDecoder.))
+      (.addFirst pipeline "haproxy" (HAProxyMessageDecoder.))
       (.addLast pipeline "handler" (server-channel-handler handler options))
       (pipeline-transform pipeline))
     ssl-context
